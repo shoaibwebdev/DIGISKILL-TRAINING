@@ -1,0 +1,90 @@
+.can a{
+    text-decoration: none;
+   color:black ;
+   padding: 10px;
+   font-weight: bold;
+}
+.can{
+    padding: 10px;
+    background-position: 30px;
+    background-color: rgb(119, 116, 116);
+}
+
+.text-ali{
+     border-radius: 20px;
+    background-color: orange;
+    animation-duration: inherit;
+    text-align: center;
+    margin-left: 10%;
+    width: 180px;
+    height: 40px;
+}
+.green{
+    border-radius: 50px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+.green:hover{
+    background-color: rgb(172, 169, 169);
+    color: white;
+}
+.text{
+    border-radius: 20px;
+    background-color: orange;
+    animation-duration: inherit;
+    text-align: center;
+    height: 40px;
+}
+.text:hover{
+    background-color: gray;
+    color: white;
+}
+.can a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.main{
+    display: flex;
+    margin-bottom: 20px;
+}
+.image-container{
+    height:  250px;
+    width: 210px;
+    overflow: hidden;
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+p1{
+    color: rgb(252, 243, 243);
+    font-size: 30px;
+}
+.para{
+    color: black;
+    width: 350px;
+    margin-left: 50px;
+}
+span{
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-hover{
+    height: 50%;
+    width: 50%;
+   object-fit: cover;
+   transition: transform 0.9s ease-in-out;
+   margin-top: 30px;
+   margin-left: 45px;
+ }
+ .image-contain{
+    height:  250px;
+    width: 210px;
+    overflow: hidden;
+    background-color: rgb(253, 150, 5);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
